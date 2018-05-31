@@ -1,0 +1,44 @@
+* {
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+	background-color: #deded5;
+}
+
+.wrapper, #container {
+	margin: 0 auto;
+	text-align: center;
+}
+.wrapper{
+	padding-top: 2em;
+	width: 80%;
+	font-family: 'Gamja Flower', cursive;
+	height: 20em;
+}
+i.fas {
+	display: block;
+	text-align: left;
+}
+#container {
+	padding-top: 1em;
+	width: 40%;
+	font-size: 1.5em;
+}
+.btn{
+	margin-left: -75px;
+}
+
+#nextquote {
+	cursor: pointer;
+	margin-top: 3em;
+	padding: 10px 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: green;
+	border: none;
+	color: white;
+	width: 40%;
+}
+i.fa-twitter {
+	font-size: 2em;
+	margin-right: 20px;
+}
